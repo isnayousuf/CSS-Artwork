@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('use.webp');
+    background-size: cover;
+}
+#first{
+    width: 2rem;
+    height: 9rem;
+    border: 2px solid whitesmoke;
+    position: relative;
+    left: 31.5%;
+    bottom: 10%;
+    transform-origin: center;
+    animation: moveCircle 1s linear infinite ;
+    background: linear-gradient(90deg, #bf9a47 0%, #ffe233 25%, #c7801d 50%, #ffe233 75%, #bf9a47 100%);
+}
+#second{
+    width: 9rem;
+    height: 2rem;
+    border: 2px solid whitesmoke;
+    position: relative;
+     left: 15%;
+    transform-origin: center;
+    animation: moveCircle 1s linear infinite;
+    background: linear-gradient( #bf9a47 0%, #ffe233 25%, #c7801d 50%, #ffe233 75%, #bf9a47 100%);
+}
+#third{
+    width: 9rem;
+    height: 2rem;
+    border: 2px solid whitesmoke;
+   
+    position: relative;
+    left: 37%;
+    transform-origin: center;
+    animation: moveCircle 1s linear infinite ;
+    background: linear-gradient( #bf9a47 0%, #ffe233 25%, #c7801d 50%, #ffe233 75%, #bf9a47 100%);
+}
+#fourth{
+    width: 9rem;
+    height: 2rem;
+    border: 2px solid whitesmoke;
+    z-index: -1;
+    position: relative;
+    left: 40%;
+    bottom: 40%;
+    transform-origin: center;
+    animation: moveCircle 1s linear infinite reverse ;
+    background: linear-gradient( #bf9a47 0%, #ffe233 25%, #c7801d 50%, #ffe233 75%, #bf9a47 100%);
+}
+#fifth{
+    width: 9rem;
+    height: 2rem;
+    border: 2px solid whitesmoke;
+   
+    position: relative;
+    left: 10%;
+    bottom: 40%;
+    transform-origin: center;
+    animation: moveCircle 1s linear infinite reverse ;
+    background: linear-gradient( #bf9a47 0%, #ffe233 25%, #c7801d 50%, #ffe233 75%, #bf9a47 100%);
+}
+#sixth{
+    width: 9rem;
+    height: 2rem;
+    border: 2px solid whitesmoke;
+    position: relative;
+    left: 25%;
+    transform-origin: center;
+    animation: moveCircle 1s linear infinite reverse;
+    background: linear-gradient( #bf9a47 0%, #ffe233 25%, #c7801d 50%, #ffe233 75%, #bf9a47 100%);
+}
+#circle{
+    width: 4rem;
+    height: 4rem;
+ 
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    position: relative;
+    left: 30%;
+    top: 40%;
+    transform-origin: center;
+    animation:  moveCircle 1s linear infinite ;
+    background: linear-gradient(90deg, #bf9a47 0%, #ffe233 25%, #c7801d 50%, #ffe233 75%, #bf9a47 100%);
+}
+
+@keyframes moveCircle{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        
+        transform: rotate(360deg);
+    }
+}
+
